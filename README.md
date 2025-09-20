@@ -1,4 +1,4 @@
-# 🧠 Data Science Re-Polishing
+# 🧠 Data Science Skills Re-Polishing
 
 The following repository has been created to **re-polish my Data Science skills** — starting with:
 
