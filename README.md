@@ -11,4 +11,4 @@ The following repository has been created to **re-polish my Data Science skills*
 
 Mark down for used Youtube tutorial just in case anyone's interested:
 
-![Pandas](https://www.youtube.com/watch?v=EXIgjIBu4EU)
+[Pandas](https://www.youtube.com/watch?v=EXIgjIBu4EU)
