@@ -13,7 +13,7 @@ Mark down for used Youtube tutorial just in case anyone's interested:
 
 [Pandas](https://www.youtube.com/watch?v=EXIgjIBu4EU)
 
-Seems some furthermore steps can lead to some unexpected thoughts in mind and files + steps in repos. update:
+Seems some furthermore steps can lead to some unexpected thoughts in mind, files in repos and steps in files + update:
 This repository now also contains:
 - Python data exploration
 - CSV data validation
