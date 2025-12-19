@@ -33,3 +33,26 @@ with open("C:/Users/user/Documents/Python for Data Science/text.txt", "r")as fil
     file_stuff=file1.read()
     print(file_stuff)
     
+    
+lines=["This is the line A\n", "This is the line B\n", "This is the line C\n", "This is the line D\n", "This is the line E\n"]
+with open("C:/Users/user/Documents/Python for Data Science/text2.txt", "w+") as file2: #creating new file and w+ meand write and read
+    file2.write("This is the line A\n") #if you use print, the cursor will be in the end, so print won't print anything.
+    file2.write("This is the line B\n")
+    for line in lines:
+        file2.write(line)
+    file2.seek(0)              # ⬅️ rewind to beginning
+    print(file2.read())
+    
+with open("C:/Users/user/Documents/Python for Data Science/text.txt", "a+")as file1: #ammend and read
+    for line in lines:
+        file1.write(line)
+    file1.seek(0)
+    print(file1.read())
+    
+#copy one file to another
+with open("C:/Users/user/Documents/Python for Data Science/text.txt", "r") as file1:
+    with open("C:/Users/user/Documents/Python for Data Science/text2.txt", "w+") as file2:
+        for line in file1:
+            file2.write(line)
+        file2.seek(0)
+        print("final print is", file2.read())
